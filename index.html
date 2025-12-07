@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ltudo meubel - Portofolio Interior</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader-wrap">
+            <div class="loader-text-mask">
+                <span class="loader-logo">Ltudo.</span>
+            </div>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-circle"></div>
+
+    <header id="main-header">
+        <div class="logo">
+            <a href="#" class="interactive">Ltudo.</a>
+        </div>
+        <nav>
+            <a href="#philosophy" class="interactive">Filosofi</a>
+            <a href="#services" class="interactive">Layanan</a>
+            <a href="#horizontal-gallery" class="interactive">Proyek</a>
+            <a href="#contact" class="interactive">Kontak</a>
+        </nav>
+        <div class="mobile-toggle interactive">Menu</div>
+        <div id="mobile-menu">
+            <div class="mobile-nav-links">
+                <a href="#philosophy" class="mobile-link interactive">Filosofi</a>
+                <a href="#services" class="mobile-link interactive">Layanan</a>
+                <a href="#horizontal-gallery" class="mobile-link interactive">Proyek</a>
+                <a href="#contact" class="mobile-link interactive">Kontak</a>
+            </div>
+            
+            <div class="mobile-menu-footer">
+                <span>© 2025 Ltudo.</span>
+                <span>Surabaya, ID</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content pointer-events-none">
+                <h1 class="reveal-text">Menciptakan<br>Ruang Bernyawa</h1>
+                <span class="text-white/70">Portofolio Desain Interior & Furnitur Kustom.</span>
+            </div>
+            <div class="scroll-prompt pointer-events-none text-center">Scroll untuk Menjelajah</div>
+        </section>
+
+        <div id="content-wrapper">
+            <section id="philosophy">
+                <div class="philosophy-container">
+                    <div class="philosophy-image reveal-image">
+                        <img src="assets/IMG-20250922-WA0046.jpg" alt="Interior Design Philosophy">
+                    </div>
+                    <div class="philosophy-content">
+                        <span class="section-label reveal-text">Filosofi Kami</span>
+                        <h2 class="reveal-text">Desain yang Bertahan, Cerita yang Dikenang</h2>
+                        <p class="reveal-text">Bagi kami, desain interior bukan hanya soal estetika. Ini tentang menciptakan ruang yang fungsional, personal, dan menceritakan siapa Anda. Kami percaya pada material berkualitas dan detail pengerjaan.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services">
+                <div class="container mx-auto px-5">
+                    <span class="section-label reveal-text" style="text-align: center;">Layanan Kami</span>
+                    <h2 class="reveal-text" style="text-align: center; margin-bottom: 3rem;">Dari Konsep Hingga Karya</h2>
+                    <div class="services-grid">
+                        <div class="service-item reveal-card">
+                            <div class="service-img-wrapper">
+                                <img src="assets/sketch.jpg" alt="Desain 3D">
+                            </div>
+                            <h3>01. Design</h3>
+                            <p>Membuat design interior yang sesuai dengan permintaan client</p>
+                        </div>
+                        <div class="service-item reveal-card">
+                            <div class="service-img-wrapper">
+                                <img src="assets/model3d.jpg" alt="Furnitur Kustom">
+                            </div>
+                            <h3>02. Konsep 3D</h3>
+                            <p>Visualisasi fotorealistis untuk mewujudkan visi Anda sebelum konstruksi dimulai.</p>
+                        </div>
+                        <div class="service-item reveal-card">
+                            <div class="service-img-wrapper">
+                                <img src="assets/ruang-manajer.jpg" alt="Konstruksi">
+                            </div>
+                            <h3>03. Furnitur Kustom</h3>
+                            <p>Meubel yang dirancang khusus agar pas dengan dimensi ruang dan karakter personal.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="horizontal-gallery">
+                <div class="gallery-wrapper">
+                    <div class="gallery-track">
+                        
+                        <div class="project-panel">
+                            <div class="project-content-box">
+                                <div class="project-info">
+                                    <span>01</span>
+                                    <h2>Apartemen Minimalis Jepang</h2>
+                                    <p>Kamar bergaya Jepang dengan nuansa tenang, sederhana, dan hangat.</p>
+                                    <a class="cta-button interactive btn-detail" data-id="1">Lihat Detail</a>
+                                </div>
+                                <div class="project-image">
+                                    <img src="assets/kamar.jpg">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-panel">
+                            <div class="project-content-box">
+                                <div class="project-info">
+                                    <span>02</span>
+                                    <h2>Interior Modern Natural</h2>
+                                    <p>Perpaduan elemen kayu natural dan pencahayaan hangat yang memberikan nuansa elegan, mewah, nyaman.</p>
+                                    <a class="cta-button interactive btn-detail" data-id="2">Lihat Detail</a>
+                                </div>
+                                <div class="project-image">
+                                    <img src="assets/modern-natural/1.jpg">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-panel">
+                            <div class="project-content-box">
+                                <div class="project-info">
+                                    <span>03</span>
+                                    <h2>Interior Modern Kontemporer</h2>
+                                    <p>Dominasi palet warna monokrom dan aksen marmer menciptakan atmosfer hunian yang eksklusif, bersih, dan menenangkan.</p>
+                                    <a class="cta-button interactive btn-detail" data-id="3">Lihat Detail</a>
+                                </div>
+                                <div class="project-image">
+                                    <img src="assets/modern-kontemporer/1.jpg">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-panel last-panel">
+                            <div class="view-more-circle interactive btn-detail" data-id="4">
+                                <span>Lihat<br>Semua</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="before-after">
+                <div class="container mx-auto px-5 text-center">
+                    <span class="section-label reveal-text mb-0">Hasil Nyata</span>
+                    <h2 class="reveal-text mb-12">Transformasi Ruang</h2>
+                    
+                    <div class="ba-carousel-wrapper reveal-card">
+                        <div class="ba-carousel-track">
+                            
+                            <div class="ba-slider-card">
+                                <div class="ba-image-container interactive">
+                                    <img src="assets/bg main.jpg" alt="After" class="ba-image-after">
+                                    <div class="ba-image-before-wrapper">
+                                        <img src="assets/before1.jpg" alt="Before" class="ba-image-before">
+                                    </div>
+                                    <div class="ba-slider-handle">
+                                        <div class="ba-handle-line"></div>
+                                        <div class="ba-handle-circle">
+                                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><path d="M15 18l-6-6 6-6"/></svg>
+                                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 18l6-6-6-6"/></svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ba-slider-card">
+                                <div class="ba-image-container interactive">
+                                    <img src="assets/modern-natural/1.jpg" alt="After Kitchen" class="ba-image-after">
+                                    <div class="ba-image-before-wrapper">
+                                        <img src="assets/before2.jpg" alt="Before Kitchen" class="ba-image-before">
+                                    </div>
+                                    <div class="ba-slider-handle">
+                                        <div class="ba-handle-line"></div>
+                                        <div class="ba-handle-circle">
+                                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><path d="M15 18l-6-6 6-6"/></svg>
+                                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 18l6-6-6-6"/></svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="ba-controls">
+                            <button class="ba-nav-prev interactive">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                                </svg>
+                            </button>
+                            <button class="ba-nav-next interactive">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="testimonials">
+                <span class="section-label reveal-text">Testimoni</span>
+                <h2 class="reveal-text">Kata Klien Kami</h2>
+                <div class="testimonial-container reveal-card">
+                    <div class="testimonial-slide active">
+                        <p>"Hasilnya bagus sesuai dengan permintaan, pengerjaan juga rapi dan cepat"</p>
+                        <span class="client-name">— Sugianto, Surabaya</span>
+                    </div>
+                    <div class="testimonial-slide">
+                        <p>"Bagus sesuai sama ekspektasi dan hasil finishingnya juga sesuai"</p>
+                        <span class="client-name">— Natalia, Surabaya</span>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="t-prev interactive">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                        </svg>
+                    </button>
+                    <button class="t-next interactive">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </button>
+                </div>
+            </section>
+
+            <section id="contact" class="relative text-white overflow-hidden">
+                <div class="container mx-auto px-6 md:px-12 relative z-10">
+                    <div class="contact-cta text-center mb-24 max-w-4xl mx-auto">
+                        <span class="text-accent text-xs font-bold tracking-[0.4em] uppercase block mb-8 reveal-text">Mulai Kolaborasi</span>
+                        
+                        <h1 class="reveal-text font-heading text-6xl md:text-9xl mb-10 leading-[1.1] font-medium text-[#b87333]">
+                            Wujudkan Visi<br>Ruang Impian
+                        </h1>
+                        
+                        <p class="reveal-text text-[#b87333]/50 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-light leading-relaxed">
+                            Kami siap mendengarkan ide Anda dan menerjemahkannya menjadi desain yang fungsional, estetis, dan bernyawa.
+                        </p>
+                        
+                        <button id="btn-open-contact" class="interactive group relative inline-flex items-center justify-center px-10 py-5 overflow-hidden font-medium text-white transition duration-300 ease-out bg-[#b87333] border border-[#b87333] rounded-full shadow-md group">
+                            
+                            <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-[#b87333] group-hover:translate-x-0 ease">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </span>
+                            
+                            <span class="absolute flex items-center justify-center w-full h-full text-white transition-all duration-300 transform group-hover:translate-x-full ease">Jadwalkan Konsultasi</span>
+                            <span class="relative invisible">Jadwalkan Konsultasi</span>
+                        </button>
+                    </div>
+
+                    <div class="footer-grid grid grid-cols-1 md:grid-cols-12 gap-12 border-t border-white/5 pt-20 pb-12 text-left">
+                        
+                        <div class="footer-col md:col-span-5">
+                            <a href="#" class="font-heading text-4xl font-bold mb-8 block interactive text-white">ltudo.</a>
+                            <p class="text-white/40 text-sm leading-7 max-w-sm mb-0">
+                                Studio desain interior yang berfokus pada detail, material berkualitas, dan pengerjaan yang presisi untuk menciptakan ruang yang tak lekang oleh waktu.
+                            </p>
+                        </div>
+
+                        <div class="footer-col md:col-span-2 md:col-start-7">
+                            <h4 class="text-white font-medium mb-6 tracking-wide text-sm">Menu</h4>
+                            <ul class="space-y-4 text-white/50 text-sm">
+                                <li><a href="#philosophy" class="hover:text-[#b87333] interactive">Filosofi</a></li>
+                                <li><a href="#services" class="interactive">Layanan</a></li>
+                                <li><a href="#horizontal-gallery" class="interactive">Proyek</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-col md:col-span-3">
+                            <h4 class="text-white font-medium mb-6 tracking-wide text-sm">Kontak</h4>
+                            <ul class="space-y-4 text-white/50 text-sm">
+                                <li><a class="hover:text-accent transition-colors interactive">ltudomeubel@gmail.com</a></li>
+                                <li>+62 815-1510-1180</li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-col md:col-span-1">
+                            <h4 class="text-white font-medium mb-6 tracking-wide text-sm">Sosial</h4>
+                            <div class="flex flex-col gap-4">
+                                <a href="https://www.instagram.com/eltede_72?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-white/50 hover:text-black hover:bg-white interactive text-sm border-white border-2 rounded-full text-center">IG</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom flex flex-col md:flex-row justify-between items-center text-xs text-white/20 pt-8 border-t border-white/5">
+                        <span>© 2025 ltudo meubel. All rights reserved.</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <div id="project-modal" class="fixed inset-0 hidden invisible">
+        <div class="modal-overlay absolute inset-0 opacity-0"></div>
+        
+        <div class="modal-content relative w-full h-full overflow-y-auto overflow-x-hidden flex flex-col items-center py-[2rem] px-6 md:px-20 opacity-0 translate-y-10" data-lenis-prevent>
+            
+            <button class="modal-close fixed top-6 right-6 z-[100000] text-white mix-blend-difference hover:rotate-90 transition-transform duration-500 interactive cursor-pointer bg-transparent border-none outline-none p-2">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+
+            <div class="w-full text-center text-white mb-16 modal-header shrink-0 pt-10">
+                <span id="m-category" class="text-accent text-xs tracking-[0.4em] uppercase block mb-6 inline-block border-b border-accent/30 pb-2">Category</span>
+                <h2 id="m-title" class="font-heading text-4xl md:text-7xl mb-6 font-bold leading-tight">Project Title</h2>
+                <p id="m-desc" class="text-white/70 w-[90%] md:w-[60%] mx-auto text-center font-light leading-relaxed text-base md:text-lg">
+                    Description text...
+                </p>
+            </div>
+
+            <div id="m-gallery" class="masonry-grid max-w-7xl w-full pb-20">
+            </div>
+            
+            <div class="mt-10 text-white/20 text-xs font-bold tracking-widest uppercase">
+                © 2025 Ltudo meubel
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        // GANTI DENGAN PUBLIC KEY ANDA DARI EMAILJS
+        emailjs.init("Nhw3EVqaykk6Nd4jZ");
+    })();
+    </script>
+
+    <div id="contact-modal" class="fixed inset-0 hidden invisible z-[99999] flex items-center justify-center p-4">
+        <div class="modal-overlay absolute inset-0 bg-black/95 backdrop-blur-md opacity-0 transition-opacity duration-500"></div>
+        
+        <div class="contact-modal-content relative w-full max-w-2xl bg-[#151515] border border-white/10 rounded-2xl shadow-2xl overflow-hidden transform translate-y-10 opacity-0 transition-all duration-500">
+            
+            <button class="contact-close absolute top-6 right-6 z-50 text-white/50 hover:text-white hover:rotate-90 transition-all duration-300 p-2 cursor-pointer">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+
+            <div class="p-8 md:p-12 flex flex-col h-full">
+                <div class="mb-8">
+                    <span class="text-accent text-xs font-bold tracking-[0.2em] uppercase block mb-3 text-white">Get in Touch</span>
+                    <h3 class="font-heading text-3xl md:text-4xl text-white font-bold">Mari Diskusikan Ide Anda</h3>
+                </div>
+                
+                <form id="contactForm" class="space-y-8">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="form-group relative">
+                            <input type="text" name="from_first_name" id="c-first-name" required 
+                                class="form-input w-full bg-transparent border-b border-white/20 py-4 text-white text-lg focus:outline-none focus:border-accent transition-colors placeholder-transparent peer" 
+                                >
+                            <label for="c-first-name" 
+                                class="absolute left-0 top-4 text-white/40 text-base transition-all duration-300 
+                                peer-focus:-top-4 peer-focus:text-xs peer-focus:text-accent
+                                peer-[:not(:placeholder-shown)]:-top-4 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:text-accent">
+                                Nama Depan
+                            </label>
+                        </div>
+                        
+                        <div class="form-group relative">
+                            <input type="text" name="from_last_name" id="c-last-name" required 
+                                class="form-input w-full bg-transparent border-b border-white/20 py-4 text-white text-lg focus:outline-none focus:border-accent transition-colors placeholder-transparent peer" 
+                                >
+                            <label for="c-last-name" 
+                                class="absolute left-0 top-4 text-white/40 text-base transition-all duration-300 
+                                peer-focus:-top-4 peer-focus:text-xs peer-focus:text-accent
+                                peer-[:not(:placeholder-shown)]:-top-4 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:text-accent">
+                                Nama Belakang
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="form-group relative">
+                            <input type="text" name="from_phone" id="c-phone" required 
+                                class="form-input w-full bg-transparent border-b border-white/20 py-4 text-white text-lg focus:outline-none focus:border-accent transition-colors placeholder-transparent peer" 
+                                >
+                            <label for="c-phone" 
+                                class="absolute left-0 top-4 text-white/40 text-base transition-all duration-300 
+                                peer-focus:-top-4 peer-focus:text-xs peer-focus:text-accent
+                                peer-[:not(:placeholder-shown)]:-top-4 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:text-accent">
+                                Nomor Telepon
+                            </label>
+                        </div>
+                        
+                        <div class="form-group relative">
+                            <input type="email" name="from_email" id="c-email" required 
+                                class="form-input w-full bg-transparent border-b border-white/20 py-4 text-white text-lg focus:outline-none focus:border-accent transition-colors placeholder-transparent peer" 
+                                >
+                            <label for="c-email" 
+                                class="absolute left-0 top-4 text-white/40 text-base transition-all duration-300 
+                                peer-focus:-top-4 peer-focus:text-xs peer-focus:text-accent
+                                peer-[:not(:placeholder-shown)]:-top-4 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:text-accent">
+                                Alamat Email
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group relative mt-6">
+                        <textarea name="message" id="c-message" rows="3" required 
+                            class="form-input w-full bg-transparent border-b border-white/20 py-4 text-white text-lg focus:outline-none focus:border-accent transition-colors placeholder-transparent resize-none peer" 
+                            ></textarea>
+                        <label for="c-message" 
+                            class="absolute left-0 top-4 text-white/40 text-base transition-all duration-300 
+                            peer-focus:-top-4 peer-focus:text-xs peer-focus:text-accent
+                            peer-[:not(:placeholder-shown)]:-top-4 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:text-accent">
+                            Ceritakan detail project Anda
+                        </label>
+                    </div>
+
+                    <div class="pt-6 flex justify-end">
+                        <button type="submit" id="btn-submit" class="group relative px-8 py-4 bg-white rounded-full overflow-hidden transition-all duration-300 shadow-lg hover:shadow-accent/20 hover:bg-[#b87333]">
+                            <span class="relative z-10 text-black font-medium text-sm tracking-wide group-hover:text-white transition-colors duration-300">KIRIM PESAN</span>
+                            <div class="absolute inset-0 bg-accent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left ease-out"></div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.23/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
